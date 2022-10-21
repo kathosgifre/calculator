@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  background: #1f4037;
+  background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);
+  background: linear-gradient(to right, #99f2c8, #1f4037);
+  background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.App {
+  height: 100vh;
+  padding-top: 50px;
+  font-family: monospace;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.react-logo-contain {
+  width: 150px;
+  height: 150px;
+  margin: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #a8ff78;
+  background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);
+  background: linear-gradient(to right, #78ffd6, #a8ff78);
+  border-radius: 20%;
+  background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.react-logo {
+  width: 90%;
+  height: 90%;
+}
+.contain-calculator {
+  width: 40%;
+  height: 500px;
+  padding: 14px;
+  margin-bottom: 50px;
+  background: #215f00; 
+  background: -webkit-linear-gradient(to right, #e2e2a0, #215f00);  
+  background: linear-gradient(to right, #e4e4a0, #215f00);
+  background-attachment: fixed;
+	background-repeat: no-repeat;
+  border-radius: 10%;
+  border: 5px solid rgb(16, 221, 94);
+}
+.row {
+  margin: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 700px){
+  .contain-calculator {
+    width: 80%;
+}
+}
